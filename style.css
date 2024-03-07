@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header{
+    position: absolute;
+} */
+.navbar{
+    background-color:#007C8C;
+}
+.navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2858, 78, 213, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.hero-section{
+    margin-top: 8rem;
+}
+.myCarousel{
+ height:50%;
+ width: 60%;
+}
+.hero-text{
+    text-align: justify;
+}
+.associated{
+    height: 200px;
+}
+.myFotter{
+    background-color:#007C8C;
+    height: 30vh;
+}
+.footer-logo-img{
+    height: auto;
+    max-width: 65%;
+}

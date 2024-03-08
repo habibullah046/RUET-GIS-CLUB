@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-/* header{
-    position: absolute;
-} */
+
 .navbar{
     background-color:#007C8C;
 }
@@ -30,6 +28,7 @@
 }
 .myFotter{
     background-color:#007C8C;
+    padding-bottom: 5px;
 }
 .footer-logo-img{
     height: auto;
@@ -37,4 +36,9 @@
 }
 .footer-end{
     margin-bottom: 0;
+}
+
+/* classfor general members page */
+.mem-tab{
+    margin: 100px 0px;
 }

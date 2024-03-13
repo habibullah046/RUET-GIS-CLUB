@@ -3,30 +3,74 @@
     padding: 0;
 }
 
+/* navbar style */
 .navbar{
     background-color:#007C8C;
-}
-.navbar-toggler-icon
-{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2858, 78, 213, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .dropdown:hover .dropdown-menu{
     display: block;
 }
-.hero-section{
-    margin-top: 8rem;
+
+
+/* hero section style */
+.hero-bg-color{
+    background: linear-gradient(to bottom, #007C8C, #6EB5C0);
+    color: black; /* Assuming your text color is black */
+    /* Additional styling for your hero section */
+    padding: 50px; /* Adjust as needed */
+    text-align: center; /* Center align text */
 }
-.myCarousel{
- height:50%;
- width: 60%;
+.hero-section{
+    margin-top: 5rem;
+    height: auto;
+    position: relative;
 }
 .hero-text{
     text-align: justify;
 }
-.associated{
-    height: 200px;
+.custom-shape-divider-bottom-1710325983 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
 }
+
+.custom-shape-divider-bottom-1710325983 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 77.3px);
+    height: 75px;
+}
+
+.custom-shape-divider-bottom-1710325983 .shape-fill {
+    fill: #FFFFFF;
+}
+/* carousel section style */
+.carousel-section{
+    max-width: 45vw;
+    margin: auto;
+    border:5px solid #007C8C;
+    border-radius: 4%;
+}
+.carousel-section-inner{
+    border-radius: 3%;
+}
+@media only screen and (max-width:1000px){
+    .carousel-section{
+        max-width: 90vw;
+        margin: auto;
+    }
+    .carousel-section-inner{
+        border-radius: 3%;
+    }
+}
+
+/* footer section style */
 .myFotter{
+    position: relative;
     background-color:#007C8C;
     padding-bottom: 5px;
 }
@@ -37,7 +81,26 @@
 .footer-end{
     margin-bottom: 0;
 }
+.custom-shape-divider-top-1710344087 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 
+.custom-shape-divider-top-1710344087 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 0.3px);
+    height: 25px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1710344087 .shape-fill {
+    fill: #FFFFFF;
+}
 /* classfor general members page */
 .mem-tab{
     margin: 100px 0px;

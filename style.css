@@ -53,6 +53,7 @@
 /* margin-bottom: -1px; */
 /* carousel section style */
 .carousel-section{
+    background-color:  #FFFFFF;
     max-width: 45vw;
     margin: auto;
     border:5px solid #007C8C;
@@ -117,3 +118,62 @@
     text-align: justify;
     margin: 70px 0px;
 }
+
+/* style for advisors page */
+.advisors{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.adv-member {
+    position: relative;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background: #fff;
+}
+
+.adv-member .adv-mem-pic {
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.adv-member .adv-mem-info {
+    padding-left: 15px;
+}
+
+.adv-member .adv-mem-info h5 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #007C8C;
+}
+
+.adv-member .adv-mem-info span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+
+.adv-member .adv-mem-info span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #007C8C;
+    bottom: 0;
+    left: 0;
+}
+.adv-member .adv-mem-info p{
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+.adv-member .adv-mem-info .adv-mem-social a svg{
+    margin: 6px;      
+}
+
+

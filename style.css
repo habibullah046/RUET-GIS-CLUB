@@ -22,13 +22,14 @@
 }
 .hero-section{
     margin-top: 5rem;
-    height: auto;
+    padding-bottom: 160px;
+    /* height: auto; */
     position: relative;
 }
 .hero-text{
     text-align: justify;
 }
-.custom-shape-divider-bottom-1710325983 {
+.custom-shape-divider-bottom-1710551930 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -36,19 +37,20 @@
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
-    margin-top: -1px;
+    margin-bottom: -1px;
 }
 
-.custom-shape-divider-bottom-1710325983 svg {
+.custom-shape-divider-bottom-1710551930 svg {
     position: relative;
     display: block;
-    width: calc(100% + 77.3px);
-    height: 75px;
+    width: calc(100% + 1.3px);
+    height: 171px;
 }
 
-.custom-shape-divider-bottom-1710325983 .shape-fill {
+.custom-shape-divider-bottom-1710551930 .shape-fill {
     fill: #FFFFFF;
 }
+/* margin-bottom: -1px; */
 /* carousel section style */
 .carousel-section{
     max-width: 45vw;
@@ -82,7 +84,7 @@
 .footer-end{
     margin-bottom: 0;
 }
-.custom-shape-divider-top-1710344087 {
+.custom-shape-divider-top-1710552086 {
     position: absolute;
     top: 0;
     left: 0;
@@ -92,18 +94,26 @@
     margin-top: -1px;
 }
 
-.custom-shape-divider-top-1710344087 svg {
+.custom-shape-divider-top-1710552086 svg {
     position: relative;
     display: block;
-    width: calc(100% + 0.3px);
-    height: 25px;
-    transform: rotateY(180deg);
+    width: calc(100% + 1.3px);
+    height: 93px;
 }
 
-.custom-shape-divider-top-1710344087 .shape-fill {
+.custom-shape-divider-top-1710552086 .shape-fill {
     fill: #FFFFFF;
 }
-/* classfor general members page */
+/* style for general members page */
 .mem-tab{
     margin: 100px 0px;
+}
+/* style for cosntitution page */
+.constitution{
+    margin: 100px 15vw 0px  15vw;
+}
+
+.brief-content{
+    text-align: justify;
+    margin: 70px 0px;
 }

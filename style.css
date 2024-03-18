@@ -5,7 +5,7 @@
 
 /* navbar style */
 .navbar{
-    background-color:#007C8C;
+    background-color:#004225;
 }
 .dropdown:hover .dropdown-menu{
     display: block;
@@ -14,8 +14,8 @@
 
 /* hero section style */
 .hero-bg-color{
-    background: linear-gradient(to bottom, #007C8C, #6EB5C0);
-    color: black; /* Assuming your text color is black */
+    background: linear-gradient(to bottom, #004225, #008B8B);
+    color:#FFFFFF; /* Assuming your text color is black */
     /* Additional styling for your hero section */
     padding: 50px; /* Adjust as needed */
     text-align: center; /* Center align text */
@@ -75,7 +75,7 @@
 /* footer section style */
 .myFotter{
     position: relative;
-    background-color:#007C8C;
+    background-color:#004225;
     padding-bottom: 5px;
 }
 .footer-logo-img{
@@ -104,6 +104,10 @@
 
 .custom-shape-divider-top-1710552086 .shape-fill {
     fill: #FFFFFF;
+}
+
+footer b hr{
+    color: #fff;
 }
 /* style for general members page */
 .mem-tab{
@@ -173,7 +177,5 @@
 }
 
 .adv-member .adv-mem-info .adv-mem-social a svg{
-    margin: 6px;      
+    margin: 6px;       
 }
-
-

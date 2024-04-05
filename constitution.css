@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.constitution {
+    margin: 100px 15vw 0px 15vw;
+}
+.brief-content {
+    text-align: justify;
+    margin: 70px 0px;
+}

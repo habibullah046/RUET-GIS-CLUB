@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.executive {
+    margin-top: 6rem;
+    margin-bottom: 10rem;
+}
+.exe-member {
+    position: relative;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background: #fff;
+    transition: all 0.4s;
+}
+.exe-member .exe-mem-pic {
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+}
+.exe-member .exe-mem-info {
+    padding-left: 15px;
+}
+.exe-member .exe-mem-info h5 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #007C8C;
+}
+.exe-member .exe-mem-info span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+}
+.exe-member .exe-mem-info p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+.exe-member .exe-mem-info p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+.exe-member .exe-mem-info .exe-mem-social a svg {
+    margin: 6px;
+
+}
+.exe-member:hover {
+    transform: scale(1.05);
+    background: aliceblue;
+}

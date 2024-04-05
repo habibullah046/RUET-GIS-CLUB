@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar style */
+.navbar {
+    background-color: #004225;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: #044e2e;
+}
+
+
+/* hero section style */
+.hero-bg-color {
+    background: linear-gradient(to bottom, #004225, #008B8B);
+    color: #FFFFFF;
+    padding: 50px;
+    text-align: center;
+}
+.hero-section {
+    margin-top: 5rem;
+    padding-bottom: 160px;
+    position: relative;
+}
+.hero-text {
+    text-align: justify;
+}
+.hero-btn .btn {
+    background-color: #FFFFFF;
+    color: #004225;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.hero-btn .btn:hover {
+    background-color: #E0E0E0;
+    color: #004225;
+}
+.custom-shape-divider-bottom-1710551930 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: -1px;
+}
+.custom-shape-divider-bottom-1710551930 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 171px;
+}
+.custom-shape-divider-bottom-1710551930 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* carousel section style */
+.carousel-section {
+    background-color: #FFFFFF;
+    max-width: 45vw;
+    margin: auto;
+    /* border: 5px solid #004225;
+    border-radius: 5px; */
+}
+.carousel-section-inner {
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:1000px) {
+    .carousel-section {
+        max-width: 90vw;
+        margin: auto;
+    }
+
+    .carousel-section-inner {
+        border-radius: 3%;
+    }
+}
+
+/* style for advisor's speech starts */
+.advisor{
+    width: 500px;
+    text-align: justify;
+    border-radius: 5px;
+    background-color: aliceblue;
+    transition: all 0.3s;
+}
+.advisor:hover{
+    transform: scale(1.05);
+}
+.advisor-img{
+    overflow: hidden;
+    width: 280px;
+    border-radius: 50%;
+}
+/* style for advisor's speech ends */
+
+/* style for members number section starts */
+.mem-num p {
+    margin: 0px;
+}
+.mem-num {
+    padding: 50px 0px;
+    background-color: #004225;
+    color: white;
+    overflow-x: hidden;
+}
+/* style for members number section ends*/
+/*style for collaborators section starts*/
+.collaborates{
+    border-radius: 10px;
+    background-color: azure;
+    width: 50vw;
+}
+/*style for collaborators section ends*/
+/* footer section style */
+.myFotter {
+    position: relative;
+    background-color: #004225;
+    padding-bottom: 5px;
+    color: #FFFFFF;
+}
+.footer-logo-img {
+    height: auto;
+    max-width: 65%;
+}
+.footer-end {
+    margin-bottom: 0;
+}
+.custom-shape-divider-top-1710552086 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    margin-top: -1px;
+}
+.custom-shape-divider-top-1710552086 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 93px;
+}
+.custom-shape-divider-top-1710552086 .shape-fill {
+    fill: #FFFFFF;
+}
+footer b hr {
+    color: #fff;
+}

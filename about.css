@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    margin-top: auto;
+}
+.about-sec{
+    margin-top: 9rem;
+}
+.abt-margin{
+    margin: 0px 50px;
+}
+.txt-jsutify{
+    text-align: justify;
+}
+.intro-txt-hed{
+    color: #FFB000;
+    /* color: #ee5f2d; */
+}
+.miss-obj{
+    background-color: #89c53f;
+}
+.miss-obj-txt-hed{
+color:#9b0002;
+}
+.act-init-txt-hed{
+    color: #FFB000;
+}
